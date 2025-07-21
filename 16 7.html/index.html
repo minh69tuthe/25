@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <title>Quản lý Sinh viên</title>
+
+    <title>Document</title>
+</head>
+<H2>thêm sinh viên</H2>
+<form id="studen" autocomplete="on">
+    <input id="name" placeholder="tên" autocomplete="additional-name"required>
+    <input id="age" placeholder="tuổi" type="number" autocomplete="bday-year"required>
+    <input id="classmin" placeholder="lớp" autocomplete="cc-number"required>
+    <button type="addbtn">thêm</button>
+</form>
+
+
+<h2>danh sách sinh viên</h2>
+<table id="classbtn">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>tên</th>
+            <th>tuổi</th>
+            <th>lớp</th>
+            <th>status</th>
+        </tr>
+    </thead>
+    <tbody id="studenlist"></tbody>
+</table>
+<script src="index.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<body>
+
+</body>
+
+</html>
